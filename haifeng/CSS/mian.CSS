@@ -1,0 +1,41 @@
+@media screen and (min-width: 1200px) {
+.news{ 
+		border-radius: 10px 10px 10px 10px;
+		width: 300px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		background-color: #FFFFFF;
+		padding-bottom: 3px;
+		float :left;}
+.news:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+.news a{
+    color: #000000;}
+.news h3:hover{
+	color: #828282;
+}
+.main{ 
+		border-radius: 5px 5px 5px 5px;
+		width:79%;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		background-color: #FFFFFF;
+		padding-bottom: 3px;
+		float :left;
+		margin-left: 10px;}
+}
+
+@media screen and (max-width: 1200px) {
+.news{display: none;}
+.news a{
+    color: #000000;}
+.news h3:hover{
+	color: #828282;
+}
+.main{ 
+		border-radius: 5px 5px 5px 5px;
+		width:100%;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		background-color: #FFFFFF;
+		padding-bottom: 3px;
+		margin-left: 10px;
+	}
+}
