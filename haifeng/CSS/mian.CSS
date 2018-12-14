@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1080px) {
 .news{ 
 		border-radius: 10px 10px 10px 10px;
 		width: 300px;
@@ -15,15 +15,15 @@
 }
 .main{ 
 		border-radius: 5px 5px 5px 5px;
-		width:79%;
+		width:75%;
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		background-color: #FFFFFF;
 		padding-bottom: 3px;
 		float :left;
-		margin-left: 10px;}
+		margin: 0 0 10px 10px;}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1080px) {
 .news{display: none;}
 .news a{
     color: #000000;}
@@ -36,6 +36,6 @@
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		background-color: #FFFFFF;
 		padding-bottom: 3px;
-		margin-left: 10px;
+		margin: 0 0 10px 10px;;
 	}
 }
