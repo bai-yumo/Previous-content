@@ -29,6 +29,25 @@ a{text-decoration:none}
 	}
 	.button{display:none;}
 	.logo{height: 55px;margin-left: 5px;padding-right: 20px}
+	
+	#li1 {
+	margin-top: 10px;
+	padding-right: 20px;
+    float: right;
+	}
+
+ 	#li1 a {
+    display: block;
+    color:#FFDD46;
+    padding: 14px 16px;
+	}
+
+	#li1 a:hover {
+    background-color: #636363;
+	color: #FFF;
+	}
+	.button{display:none;}
+	.logo{height: 55px;margin-left: 5px;padding-right: 20px}
 
 }
 @media screen and (max-width: 1200px) {
@@ -53,6 +72,18 @@ a{text-decoration:none}
     color: white;
 	padding-top: 5px;
 	}
+	
+	#li1 {
+	margin-top: 1px;
+	font-size: 18px;
+	}
+
+ 	#li1 a {
+    display: block;
+    color: #FFDD46;
+	padding-top: 5px;
+	}
+	
 	.logo{height: 55px;margin-left: 5px;padding-right: 20px;margin-top: 10px}
 	.menu-icon{
 	margin-top: 25px;
