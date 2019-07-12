@@ -1,17 +1,24 @@
-<!DOCTYPE html> 
-<html> 
-    <title>MRMO</title>
-    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
-    <script type="text/javascript">
-        window.onload=function test(){
-            var ip = returnCitySN["cip"];
-            document.getElementById("mss").innerHTML = "[ip]" + ip;
-            //document.getElementById("mss").innerHTML="Welcome to my Homepage";
-           };
-        
-        
-    </script>
-    <body>
-        <div id="mss"></div>
-    </body>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script> 
+    window.onload=function test(){
+      if(navigator.userAgent.match(/Alipay/i)) {
+        // 支付宝 你自己的业务代码 
+      }else if(navigator.userAgent.match(/MicroMessenger\//i)) {
+        window.location.href = 'https://u.wechat.com/ENgxp2Q4ldTf8244SORSoW8';
+        // 微信 你自己的业务代码 
+      } else if(navigator.userAgent.match(/QQ\//i)) { 
+        window.location.href = 'http://qm.qq.com/cgi-bin/qm/qr?k=d4UssHnSrSxCQkZUPzT1M2daFU3mX-RP';
+      } else if(navigator.userAgent.match(+CoolMarket)) { 
+        window.location.href = 'https://www.coolapk.com/u/728066?from=qr';
+      } else {
+        window.location.href = 'https://coolapk.com';
+        // 其它，显示“万能码” 你自己的业务代码 
+      } ;
+    };
+    
+  </script>
+</head>
+  <body ></body>
 </html>
